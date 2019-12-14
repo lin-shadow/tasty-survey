@@ -1,0 +1,86 @@
+body {
+  background-color: PeachPuf;
+  margin: 0px;
+}
+
+#div1 {
+  background-color: wheat;
+  color: 	sienna;
+  text-align: center;
+  line-height: 0.5;
+  padding: 0.1px;
+  font-family: Trebuchet MS;
+  margin: auto;
+}
+
+form {
+  margin-left: 20%;
+  padding: 30px 30px 30px 30px;
+  width: 60%;
+  background-color: LemonChiffon;
+  font-family: Trebuchet MS;
+  line-height: 2;
+}
+
+input:invalid:not(:placeholder-shown) {border-color: red;}
+input:valid:not(:placeholder-shown)
+
+#div2 {
+  display: flex;
+}
+
+#radio-text{
+  margin-top: 10px;
+  margin-left: ;
+  text-align: left;
+  line-height: 1;
+  display: grid;
+}
+#radio-button {
+  padding-top: 10px;
+  text-align: left;
+  line-height: 1;
+}
+#textarea {
+  display: grid;
+  line-height: 2;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#submit {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#check {
+  text-align: left;
+  line-height: 1;
+  padding: 5px;
+}
+
+#div3 {
+  display: flex;
+}
+
+.button {
+  background-color: sienna;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Trebuchet MS;
+}
+
+#name {
+  font-family: Trebuchet MS;
+}
+
+#email {
+  font-family: Trebuchet MS;
+}
+
+#number {
+  font-family: Trebuchet MS;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="div1"><h1 id="title">Tasty survey</h1>
+    <p id="description">Let us know what do you like about food</p></div>
+    <form action="value" id="survey-form">
+    <label for="name-label">Name: <input type="text" id="name" required placeholder="Tomato Potatovich"></label><br>
+    <label for="email-label">Email: <input type="email" id="email" required placeholder="sample@tastymail.com"></label><br>
+    <label for="number-label">How many meals do you have per day? <input type="number" id="number" placeholder="3"></label><br>
+   <label for id="dropdown">What's your favouite meal?
+      <select>
+  <option>Breakfast</option>
+  <option>Brunch</option>
+  <option>Lunch</option>
+  <option>Dinner</option>
+  <option>Epic night snack</option>
+</select>
+      </label><br>
+      <div id="div2"><div id="radio-text"><label for id="radio">What cuisine do you like the most?</div><div id="radio-button"><input type="radio" name="cuisine" value="asian">Asian<br>
+<input type="radio" name="cuisine" value="eastern">Eastern<br>
+<input type="radio" name="cuisine" value="european">European<br>
+<input type="radio" name="cuisine" value="african">African<br>
+<input type="radio" name="cuisine" value="western">Western<br>
+<input type="radio" name="cuisine" value="other">Other
+      </label></div></div>
+      <div id="div3"><div id="check-text"><label>What food do you enjoy?</div>
+        <div id="check"><input type="checkbox" name="food" value="meat">Meat<br>
+        <input type="checkbox" name="food" value="fish">Fish<br>
+        <input type="checkbox" name="food" value="vegetables">Vegetables<br>
+        <input type="checkbox" name="food" value="pastry">Pastry<br>
+        <input type="checkbox" name="food" value="desserts">Desserts<br>
+        <input type="checkbox" name="food" value="fruits">Fruits<br>
+          <input type="checkbox" name="food" value="pocessed-food">Processed food</div>
+      </label></div>
+      <div id="textarea">Share your favourite recipe with us!
+        <textarea rows="5" cols="50" placeholder="Let us know what you like the best!"></textarea></div>
+      <div id="submit"><input type="submit" class="button" value="We love to eat!"></div>
+    </form>
+  </body>
+</html>
